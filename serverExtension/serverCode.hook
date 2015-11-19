@@ -1,0 +1,9 @@
+{
+  "kiicloud://things/*/buckets/_commands":[
+    {
+      "when": "DATA_OBJECT_UPDATED",
+      "what": "EXECUTE_SERVER_CODE",
+      "endpoint": "triggerActionResultSocket"
+    }
+  ]
+}
